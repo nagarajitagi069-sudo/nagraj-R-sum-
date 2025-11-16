@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nagraj Itagi — Resume</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: { brand: { 500: '#2563eb' } }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { -webkit-print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 antialiased">
+  <div class="min-h-screen py-8 px-4">
+    <div class="mx-auto max-w-3xl bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden">
+      <!-- Header -->
+      <header class="p-6 flex items-center gap-4">
+        <div class="flex-shrink-0">
+          <div class="h-20 w-20 rounded-full bg-gradient-to-tr from-brand-500 to-indigo-600 flex items-center justify-center text-white font-bold text-xl">
+            NI
+          </div>
+        </div>
+
+        <div class="flex-1">
+          <h1 class="text-2xl font-extrabold">Nagraj Itagi</h1>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Pursuing Graduation — Computer Application</p>
+          <div class="mt-2 flex flex-wrap gap-3 text-sm items-center">
+            <span class="inline-flex items-center gap-2">
+              <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 0 0 2.22 0L21 8M5 19h14a2 2 0 0 0 2-2V8l-9 6-9-6v9a2 2 0 0 0 2 2z"/>
+              </svg>
+              <span id="emailText">nagarajitagi069@gmailcom</span>
+            </span>
+
+            <span class="inline-flex items-center gap-2">
+              <svg class="w-4 h-4 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m6 12h2a2 2 0 0 0 2-2V7H3v9a2 2 0 0 0 2 2h2" /></svg>
+              <span>+91 9309513912</span>
+            </span>
+
+            <span class="inline-flex items-center gap-2">
+              <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2l3 7h7l-5.5 4 2 7L12 16 5.5 20l2-7L2 9h7z"/>
+              </svg>
+              <span>Dona Paula, Goa</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="no-print flex items-center gap-2">
+          <button id="copyEmail" class="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700" title="Copy email">
+            Copy Email
+          </button>
+          <button id="printBtn" class="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700" title="Print/Save as PDF">
+            Print / PDF
+          </button>
+        </div>
+      </header>
+
+      <div class="border-t border-gray-100 dark:border-gray-700"></div>
+
+      <main class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Left (main) -->
+        <section class="md:col-span-2 space-y-6">
+          <!-- About -->
+          <div>
+            <h2 class="text-lg font-semibold">About Me</h2>
+            <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">
+              Dedicated and enthusiastic individual eager to get into a challenging role to start my career.
+              Highly motivated to learn, grow, and contribute to a dynamic organisation. Strong team-management and problem-solving skills.
+            </p>
+          </div>
+
+          <!-- Education -->
+          <div>
+            <h2 class="text-lg font-semibold">Education</h2>
+            <div class="mt-3 space-y-3 text-sm text-gray-700 dark:text-gray-300">
+              <div>
+                <strong>Pursuing Graduation (Computer Application)</strong><br/>
+                <span class="text-xs text-gray-500 dark:text-gray-400">(Years from PDF: 2022 - 2023)</span>
+              </div>
+              <div>
+                <strong>Vasantrao Dempo Higher Secondary School of Science, Commerce and Arts</strong><br/>
+                12th
+              </div>
+              <div>
+                <strong>Government High School</strong><br/>
+                10th
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience / Internships -->
+          <div>
+  <h2 class="text-lg font-semibold">Experience</h2>
+
+  <div class="mt-4">
+    <h3 class="font-semibold">Full Stack Web Developer (Training / Practice Projects)</h3>
+    <p class="text-sm text-gray-500 dark:text-gray-400">2023 – Present</p>
+
+    <ul class="mt-2 list-disc pl-5 text-sm text-gray-700 dark:text-gray-300">
+      <li>Developed responsive web applications using HTML, CSS, Tailwind CSS, JavaScript, React, Node.js, and MongoDB.</li>
+      <li>Built full-stack CRUD applications using REST APIs and Express.js backend.</li>
+      <li>Designed clean UI/UX structures including wireframes and reusable components.</li>
+      <li>Implemented user authentication, form validation, and dynamic routing.</li>
+      <li>Practiced deployment on platforms like Vercel, Netlify, and Render.</li>
+      <li>Worked on industry-like project workflows (Git, GitHub, version control).</li>
+    </ul>
+  </div>
+
+  <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">
+    (More detailed project contributions can be added if you want.)
+  </p>
+</div>
+
+          <!-- Projects (placeholder area to add details) -->
+          <div>
+            <h2 class="text-lg font-semibold">Projects</h2>
+            <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">
+              Add your projects, course-work or small apps here (e.g., a mini web-app, video editing sample, marketing campaign work).
+            </p>
+          </div>
+        </section>
+
+        <!-- Right (sidebar) -->
+        <aside class="space-y-6">
+          <!-- Skills -->
+          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg">
+            <h3 class="font-semibold">Skills</h3>
+            <ul class="mt-3 space-y-2 text-sm text-gray-700 dark:text-gray-300">
+              <li>Basic MS Word & Excel</li>
+              <li>Problem Solving</li>
+              <li>Team Management</li>
+              <li>Computer Skills</li>
+              <li>Video Editing (basic)</li>
+              <li>Transport (experience/interest noted)</li>
+            </ul>
+          </div>
+
+          <!-- Interests -->
+          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg text-sm text-gray-700 dark:text-gray-300">
+            <h3 class="font-semibold">Interests</h3>
+            <ul class="mt-2 list-disc pl-5">
+              <li>Sports</li>
+              <li>Music</li>
+              <li>Marketing</li>
+              <li>Video editing</li>
+            </ul>
+          </div>
+
+          <!-- Languages -->
+          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg text-sm text-gray-700 dark:text-gray-300">
+            <h3 class="font-semibold">Languages</h3>
+            <ul class="mt-2 list-disc pl-5">
+              <li>English</li>
+              <li>Hindi</li>
+              <li>Marathi</li>
+              <li>Konkani</li>
+            </ul>
+          </div>
+
+          <!-- Contact & quick note -->
+          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg text-sm text-gray-700 dark:text-gray-300">
+            <h3 class="font-semibold">Contact</h3>
+            <div class="mt-2">
+              <div><strong>Phone:</strong> +91 9309513912</div>
+              <div><strong>Email (from file):</strong> <span id="emailShow">nagarajitagi069@gmailcom</span></div>
+              <div class="mt-2 text-xs text-yellow-700 dark:text-yellow-300">
+                Suggestion: Your uploaded email is missing a dot before <code>com</code>. Should it be <strong>nagarajitagi069@gmail.com</strong>?
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <div class="border-t border-gray-100 dark:border-gray-700"></div>
+
+      <footer class="p-4 text-center text-xs text-gray-500 dark:text-gray-400">
+        Resume generated from uploaded details.  [oai_citation:1‡NAGRAJ .pdf.pdf](sediment://file_0000000065d87208b76ef686bf5de60d)
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // copy email
+    document.getElementById('copyEmail').addEventListener('click', async () => {
+      const email = document.getElementById('emailText').textContent.trim();
+      try {
+        await navigator.clipboard.writeText(email);
+        const btn = document.getElementById('copyEmail');
+        const old = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = old, 1200);
+      } catch(e) {
+        alert('Unable to copy. Email: ' + email);
+      }
+    });
+
+    // print / pdf
+    document.getElementById('printBtn').addEventListener('click', () => {
+      window.print();
+    });
+  </script>
+</body>
+</html>
